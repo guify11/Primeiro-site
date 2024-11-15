@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYCQTRS0C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NYCQTRS0C8');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="esse e o meu primeiro site">
+    <meta neme="keywords" content="primeiro site, Guilherme, teste">
+    <meta naame="author" content="Guilherme Silva Ferreira">
+    <title>log-in</title>
+</head>
+<body>
+    <h1>criar conta</h1>
+    <br>
+    <hr>
+    <form action="form.php">
+        <h2>suas informações</h2>
+        <br>
+        <label for="nome">nome</label>
+        <input id="nome" type="text"placeholder="escreva seu primeiro nome" required>
+        <br>
+        <br>
+        <label for="last-name">sobrenome</label>
+        <input id="last-name" type="text" placeholder="escreva seu subrenomre" required>
+        <br>
+        <br>
+        <label for="email">e-mail</label>
+        <input id=email type="email"placeholder="escreva seu e-mail" required>
+        <br>
+        <br>
+        <label for="pass">password</label>
+        <input id="pass" type="password" placeholder="escreva sua nova password" required>
+        <br>
+        <br>
+        <h2>idade</h2>
+        <input type="radio" name="idade" id="0-10" value="01-10">
+        <label for="0-10">0-10</label>
+        <br>
+        <input type="radio" name="idade" id="10-20" value="10-20">
+        <label for="10-20">10-20</label>
+        <br>
+        <input type="radio" name="idade" id="20-30" value="20-30">
+        <label for="20-30">20-30</label>
+        <br>
+        <input type="radio" name="idade" id="30-40" value="30-40">
+        <label for="30-40">30-40</label>
+        <hr>
+        <input type="submit" value="criar" id="submit">
+        <select required>
+            <option selected disabled="">selecione uma opcao</option>
+            <option value="vermelho">vermelho</option>
+            <option value="amarelo">amarelo</option>
+            <option value="verde">verde</option>
+            <option value="azul">azul</option>
+            <option value="rosa">rosa</option>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro asperiores maiores, quia voluptate quis iusto dicta quibusdam, repudiandae inventore sapiente eligendi totam. Molestiae provident, quasi expedita exercitationem omnis officia voluptates.</p>
+        </select>
+    </form>
+</body>
+</html>
