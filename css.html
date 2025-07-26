@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="css/etilo.css">
     <script>
     function Evento(){
-        alert('nada no calendario')
+        window.confirm('a alterar texto continuar mesmo asssin')
+        let digito = (window.prompt("escreva o texto"))
+        document.getElementById('h1').textContent = digito
     }
 </script>
 </head>
@@ -43,9 +45,9 @@
     <br>
     <br>
     <div class="exemploBack">
-        <h1 style="border: none;">bom dia</h1>
+        <h1 id="h1" style="border: none;">bom dia</h1>
     </div>
-    <button type="button" onclick="Evento() ">Evento</button>
-    <a class="botao" href="menu.html">ola</a>
+    <button type="button" onclick="Evento() ">alterar texto</button>
+    <a class="botao" href="menu.html">menu</a>
 </body>
 </html>
